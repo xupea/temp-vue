@@ -24,16 +24,16 @@ export default class Description2 extends Vue {
         position: absolute;
         color: #DE6A38;
         font-size: .52rem;
-        top: .18rem;
-        left: .28rem;
+        top: .38rem;
+        left: .58rem;
     }
 
     .label {
         position: absolute;
         color: #FFFFFF;
         font-size: .24rem;
-        bottom: .24rem;
-        left: .28rem;
+        bottom: .47rem;
+        left: .55rem;
     }
 
     img {

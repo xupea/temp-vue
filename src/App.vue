@@ -8,9 +8,15 @@
   </div>
 </template>
 
+<script>
+import '@/assets/theme/index.css';
+
+export default {}
+</script>
+
 <style lang="less">
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: STYuanti-SC-Regular, Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;

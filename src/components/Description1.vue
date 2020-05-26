@@ -1,7 +1,8 @@
 <template>
-  <div class="hello">
+  <div class="container">
     <span class="name">{{name}}</span>超过了全国
-    <span class="percent">{{percent}}</span>的同 龄孩子，数感运算、观察能力突出
+    <span class="percent">{{percent}}</span>的同
+    <br />龄孩子，数感运算、观察能力突出
   </div>
 </template>
 
@@ -17,11 +18,11 @@ export default class Description1 extends Vue {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="less">
-.hello {
-    width: 4.18rem;
-    font-size: .28rem;
-    span {
-        color: #FFEB0C;
-    }
+.container {
+  width: 4.18rem;
+  font-size: 0.28rem;
+  span {
+    color: #ffeb0c;
+  }
 }
 </style>

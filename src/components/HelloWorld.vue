@@ -2,7 +2,10 @@
   <div class="hello">
     <div class="img-container">
       <img src="@/assets/分数背景@2x.png" alt />
-      <Description2 class="description2" score="100" />
+      <div class="description2">
+        <Description2 score="100" />
+      </div>
+      
       <Description1 class="description1" name="和同学" percent="80%" />
       <AnswerList></AnswerList>
     </div>
